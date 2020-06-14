@@ -138,8 +138,8 @@ window.addEventListener('keydown' , e =>
 
 function displayStat()
 {
-    winElement.innerText=localStorage.getItem('winCount');
-    looseElement.innerText=localStorage.getItem('looseCount');
+    winElement.innerText=parseInt(localStorage.getItem('winCount'));
+    looseElement.innerText=parseInt(localStorage.getItem('looseCount'));
 }
 
 //Restart the game - Play Again button
